@@ -1,0 +1,24 @@
+{
+  "name": "grey-fifth-glyph-bot",
+  "version": "1.0.0",
+  "description": "A small bot requested by Safari Grey to flag all messages that contain the letter E.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "TDarkShadow (https://github.com/TDarkShadow)",
+  "license": "MIT",
+  "engines": {
+    "node": "12.x",
+    "npm": "*"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "production": "NODE_ENV=production&&npm start",
+    "development": "set NODE_ENV=development&&npm start"
+  }
+}
